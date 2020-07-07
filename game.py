@@ -11,7 +11,7 @@ while True:
         slizen.sound()
         zombi = Enemy("УУУУУУэээ", 70, 20, 2, 10)
         zombi.sound()
-        zombi.attack(steve)
+        steve.take_damage(zombi.damage)
         print(steve.hp)
 
 
